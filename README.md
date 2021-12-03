@@ -1,4 +1,4 @@
-# [ Sharoof-Khan | PortFolio](https://abhishek001-portfolio.netlify.app/)
+# [ Sharoof-Khan | PortFolio](https://sharoof-khan-portfolio-coolstuff400031-gmailcom.vercel.app/)
 
 <table>
 <tr>
@@ -11,10 +11,6 @@
 
 
 ## Demo
-Here is a working live demo :  [Click Me](https://abhishek001-portfolio.netlify.app/)
+Here is a working live demo :  [Click Me](https://sharoof-khan-portfolio-coolstuff400031-gmailcom.vercel.app/)
 
 
-## Site
-
-
-# portfolio
