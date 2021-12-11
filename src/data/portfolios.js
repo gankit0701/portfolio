@@ -8,7 +8,8 @@ const portfolios = [
         category: 'Web Application',
         image: coursera,
         link1: 'https://github.com/rahulyadav96/coursera',
-        link2: 'https://contio.netlify.app/',
+        link2: 'https://determined-brahmagupta-c9dae8.netlify.app/'
+        ,
         title: 'Coursera',
         text: ''
     },
@@ -25,7 +26,7 @@ const portfolios = [
         id: 3,
         category: 'Booking Platform',
         image: go,
-        link1: 'https://hashnode.com/post/goibibo-online-travel-booking-website-ckvxsn21d032y29s1dkhb0p79',
+        link1: 'https://github.com/ShashankSKB/goibibo_clone',
         link2: 'https://goibibi.herokuapp.com/',
         title: 'Goibibo',
         text: ''

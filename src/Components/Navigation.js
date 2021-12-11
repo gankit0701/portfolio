@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import me from "../img/resume1.png";
+// import me from "../img/resume1.png";
+import me from "../img/dp.png";
 
 function Navigation({ setNavToggle }) {
   const [nav1, setNav1] = useState(true);

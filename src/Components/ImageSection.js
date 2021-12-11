@@ -1,9 +1,12 @@
 import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
-import resume from "../img/resume1.png";
-import me from "../img/resume2.png";
+// import resume from "../img/resume1.png";
+import resume from "../img/dp.jpg";
+// import me from "../img/resume2.png";
+import me from "../img/srk.jpg";
 import PrimaryButton from "./PrimaryButton";
+import SecondryButton from './SecondryButton'
 import "../App.css"
 function ImageSection() {
   const infoo = useRef();
@@ -36,6 +39,7 @@ function ImageSection() {
         </p>
         <div className="about-info"></div>
         <PrimaryButton title={"Download Resume"} />
+        <SecondryButton title = {"View Resume"} />
       </div>
     </ImageSectionStyled>
   );
