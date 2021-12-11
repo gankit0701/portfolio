@@ -90,7 +90,37 @@ function Navigation({ setNavToggle }) {
           className="nav-item"
         >
           <NavLink to="/resume" activeClassName="active-class" exact>
-            Resume
+            Education
+            <div className={`arrowAnim ${nav3?"sh":""}`}>
+              <div className="arrowSliding">
+                <div className="arrow"></div>
+              </div>
+              <div className="arrowSliding delay1">
+                <div className="arrow"></div>
+              </div>
+              <div className="arrowSliding delay2">
+                <div className="arrow"></div>
+              </div>
+              <div className="arrowSliding delay3">
+                <div className="arrow"></div>
+              </div>
+            </div>
+          </NavLink>
+        </li>
+        <li
+          onClick={() => {
+            setNavToggle(false);
+            setNav1(false);
+            setNav2(false);
+            setNav3(true);
+            setNav4(false);
+            setNav5(false);
+            setNav6(false);
+          }}
+          className="nav-item"
+        >
+          <NavLink to="/Skills" activeClassName="active-class" exact>
+            Skills
             <div className={`arrowAnim ${nav3?"sh":""}`}>
               <div className="arrowSliding">
                 <div className="arrow"></div>

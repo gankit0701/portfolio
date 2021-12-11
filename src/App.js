@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import HomePage from "./Pages/HomePage";
 import AboutPage from './Pages/AboutPage';
 import ResumePage from './Pages/ResumePage';
+import SkillPage from './Pages/SkillPage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
@@ -168,6 +169,10 @@ function App() {
             <Route path="/resume">
               <ResumePage />
             </Route>
+            <Route path="/skills">
+              <SkillPage />
+            </Route>
+                
             <Route path="/portfolios">
               <PortfoliosPage />
             </Route>
