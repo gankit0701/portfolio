@@ -16,7 +16,8 @@ function ImageSection() {
       backSpeed:  100,
       startDelay: 500,
       backDelay:800,
-      strings: ["Sharoof Khan","A Web Developer", "A Problem Solver"],
+      // strings: ["Sharoof Khan","A Web Developer", "A Problem Solver"],
+      strings: ["Ankit Kumar Gupta","A Mobile App Developer", "A Problem Solver"],
     });
   },[])
   return (
@@ -31,11 +32,10 @@ function ImageSection() {
           I am <span ref={infoo}></span>
         </h4>
         <p className="paragraph">
-          I am Web Devloper. Strong in design and integration with intuitive
-          problem-solving skills. Proficient in React, Javascript. Passionate
-          about implementing and launching new projects. Ability to translate
-          business requirements into technical solutions. Looking to start the
-          career as a web developer with a reputed firm driven by technology.
+         Committed professional offering years of experience in the field of web
+        application development. Excellent communication skills and a consistent team
+        player in all sorts of environments. Seeking to expand talents by bringing a
+        wealth of expertise to a well-established company.
         </p>
         <div className="about-info"></div>
         <PrimaryButton title={"Download Resume"} />

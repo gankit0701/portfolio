@@ -12,39 +12,119 @@ function Resume() {
   const school = <SchoolIcon />;
   return (
     <ResumeStyled>
-      <Title title={"Education"} span={"education"} />
+      <Title title={"Experince and Education"} span={"education"} />
       <InnerLayout>
-        {/*<div className="small-title">
-          <SmallTitle icon={briefcase} title={"Interships"} />
-        </div> */}
-        {/*<div className="resume-content">
-          <ResumeItem
-            year={"July, 2017 - Aug,2017"}
-            title={"NTPC, Nabinagar"}
-            text={
-              'Successfully completed the internship in this factory on the subject "Cooling Tower working" with period of 3 months.'
-            }
+        <div className="small-title">
+          <SmallTitle
+            icon={briefcase}
+            title={"Mobile Application Developer"}
           />
-        </div> */}
+        </div>
+        <div className="resume-content">
+          <ResumeItem
+            year={"March, 2021 - Present"}
+            title={" Digixy Global Consulting  , Noida"}
+            text={`● Presented designs to customers for evaluation, promptly changing client's required improvements,
+                  amendments and requests.
+                  ● Designed applications that were successfully downloaded by 5000+ users.
+                  ● Planned storyboards for clients before creating applications, ensuring designs and ideas stayed to client
+                  requirements and expectations.
+                  ● Worked with outside data sources and APIs
+                   `}
+          />
+        </div>
+
+        <div className="small-title">
+          <SmallTitle
+            icon={briefcase}
+            title={"Android App Developer"}
+          />
+        </div>
+        <div className="resume-content">
+          <ResumeItem
+            year={"June, 2020 - Feb,2021"}
+            title={" First Nucleus Internet Technology  , Mumbai"}
+            text={` ● Presented designs to customers for evaluation, promptly changing client's required improvements,
+                    amendments and requests.
+                    ● Designed applications that were successfully downloaded by 5000+ users.
+                    ● Planned storyboards for clients before creating applications, ensuring designs and ideas stayed to client
+                    requirements and expectations.
+                    ● Worked with outside data sources and APIs.
+                    ● Work on bug fixing and improving application performance.
+                    ● Unit-test code robustness, including edge cases, usability and general reliability.
+                    ● Used various playout systems to deliver first-class sound and vision across live and recorded media output.
+                    `}
+          />
+        </div>
+        <div className="small-title">
+          <SmallTitle
+            icon={briefcase}
+            title={"Interships, Android App Developer"}
+          />
+        </div>
+        <div className="resume-content">
+          <ResumeItem
+            year={"April, 2020 - June,2020"}
+            title={" Mirazh Media and Entertainment Pvt  , Mumbai"}
+            text={` ● Worked closely with suppliers to source new, in-demand reads for a popular, ever-growing library catalogue.
+                    ● Built customer loyalty through exceptional service, consistently growing repeat business to ensure excellent
+                    sales figures.
+                    ● Bug fixing and improving application performance.
+                    ● Work with outside data sources and APIs.
+                    ● Unit-test code for robustness, including edge cases, usability and general reliability.
+                    ● Work on bug fixing and improving application performance`}
+          />
+        </div>
+        <div className="small-title">
+          <SmallTitle icon={briefcase} title={"Interships, Web Designer"} />
+        </div>
+        <div className="resume-content">
+          <ResumeItem
+            year={"Jan, 2020 - Feb,2020"}
+            title={"Write Soft , Mumbai"}
+            text={` ● Built reusable code that could be utilized in other projects, effectively saving the company money.
+                    ● Reviewed information regularly on websites and pages to ensure that it was accurate.
+                    ● Created web materials to be used in marketing and email campaigns.
+                    ● Managed all project and web strategic planning for the entire team.
+                    ● Ensured that sites adhered to brand guidelines.
+                    ● Handled special projects designated by the senior developer.
+                    ● Redesigned sites to enhance navigation and improve visual appeal.
+                    ● Created and implemented firewalls, encryption strategies and other critical security measures.
+              `}
+          />
+        </div>
+
+        <div className="small-title">
+          <SmallTitle icon={briefcase} title={"Interships,Web Developer"} />
+        </div>
+        <div className="resume-content">
+          <ResumeItem
+            year={"June, 2019 - July,2019"}
+            title={"Smart Study Hub, Mumbai"}
+            text={` ●Built reusable code that could be utilized in other projects, effectively saving the company money      
+                    ● Participated in pre-project analysis and technical assessments to ensure the creation of a user-friendly
+                    interface.
+                    ● Reviewed information regularly on websites and pages to ensure that it was accurate.
+                    ● Created web materials to be used in marketing and email campaigns.
+                    ● Contributed back-end experience and collaborated on APIs.
+                    ● Managed all project and web strategic planning for the entire team.
+                    ● Ensured that sites adhered to brand guidelines.
+                    ● Handled special projects designated by the senior developer.
+                    ● Redesigned sites to enhance navigation and improve visual appeal.
+                    ● Created and implemented firewalls, encryption strategies and other critical security measures.
+              
+              `}
+          />
+        </div>
         <div className="small-title u-small-title-margin">
           <SmallTitle icon={school} title={"Educational Qualifications"} />
         </div>
         <div className="resume-content ">
           <ResumeItem
-            year={"April, 2021 - Present"}
-            title={"Full Stack Developer"}
-            subTitle={"Masai School, Banglore"}
-            text={
-              "Learning Full Stack Developement and Communication skills. "
-            }
-          />
-          <ResumeItem
             year={"2017 - 2020"}
             title={"Bsc IT"}
             subTitle={"Vidyalankar School Of Information Technology"}
-            text={
-              "Wadala, Mumbai:400031"
-            }
+            text={"Wadala, Mumbai:400031"}
             /* text={
               "Got 75% through out the semester. Always active in project cirriculum."
             } */
@@ -52,18 +132,14 @@ function Resume() {
           <ResumeItem
             year={"2016 - 2017"}
             title={"HSC (Science)"}
-            subTitle={"GuruNanak College of Arts Commerce And Science"}
-            text={
-              "GTB Nagar, Mumbai:400037"
-            }
+            subTitle={"GuruNanak Khalsa College"}
+            text={"Matunga, Mumbai:400019"}
           />
           <ResumeItem
             year={"2014 - 2015"}
             title={"SSC"}
-            subTitle={"Sitaram Prakash High School"}
-            text={
-              "Wadala, Mumbai:400031"
-            }
+            subTitle={"Shree Dayanand Balak Vidyalay"}
+            text={"Matunga, Mumbai:400019"}
           />
         </div>
       </InnerLayout>
@@ -78,9 +154,8 @@ const ResumeStyled = styled.section`
   .u-small-title-margin {
     margin-top: 4rem;
   }
-  
-  .resume-content {
 
+  .resume-content {
     border-left: 2px solid var(--border-color);
   }
 `;

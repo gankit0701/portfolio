@@ -5,9 +5,9 @@ import Title from '../Components/Title';
 import Button1 from './Button1';
 
 
-const front = ["HTML","CSS","JAVASCRIPT","REACT","REDUX","BOOTSTRAPS"]
-const  back = ["NODEJS","EXPRESS","MONGODB"]
-const tech = ["VSCODE","POSTMAN","GITHUB"]
+const skill = ["JAVA", "C", "C++", "ANDROID STUDIO","HTML", "CSS", "JAVASCRIPT", "BOOTSTRAPS"];
+const  industry = ["APPLICATION LIFE CYCLE","PROJECT MANAGEMENT","BRAND OVERSIGHT","TEST ESTIMATION"]
+const tech = ["VSCODE","POSTMAN","ANDROID STUDIO","WEBSITE ANALYTIES TOOLS"]
 const soft = ["TEAM PLAYER","Good Communication","Work Ethics","Creative"]
 function Skills() {
     return (
@@ -17,8 +17,8 @@ function Skills() {
                 <InnerLayout>
                     <div className="skills">
                        
-                      <Button1 button={front} title = "FRONT-END"/>
-                      <Button1 button={back} title = "BACK-END"/>
+                      <Button1 button={skill} title = "SKILL'S"/>
+                      <Button1 button={industry} title = "INDUSTRY KNOWLEDGE"/>
                       <Button1 button={tech} title = "TOOLS"/>
                       <Button1 button={soft} title = "SOFT-SKILLS"/>
                     </div>

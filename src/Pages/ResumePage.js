@@ -26,7 +26,7 @@ function ResumePage() {
       exit="exit"
     >
       <MainLayout>
-        {/* <Skills /> */}
+        <Skills />
         <Resume />
       </MainLayout>
     </motion.div>

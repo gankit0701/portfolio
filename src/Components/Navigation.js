@@ -90,7 +90,7 @@ function Navigation({ setNavToggle }) {
           className="nav-item"
         >
           <NavLink to="/resume" activeClassName="active-class" exact>
-            Education
+            Resume
             <div className={`arrowAnim ${nav3?"sh":""}`}>
               <div className="arrowSliding">
                 <div className="arrow"></div>
@@ -107,7 +107,7 @@ function Navigation({ setNavToggle }) {
             </div>
           </NavLink>
         </li>
-        <li
+       {/*  <li
           onClick={() => {
             setNavToggle(false);
             setNav1(false);
@@ -136,7 +136,7 @@ function Navigation({ setNavToggle }) {
               </div>
             </div>
           </NavLink>
-        </li>
+        </li> */}
         <li
           onClick={() => {
             setNavToggle(false);
@@ -167,7 +167,7 @@ function Navigation({ setNavToggle }) {
             </div>
           </NavLink>
         </li>
-        <li
+        {/* <li
           onClick={() => {
             setNavToggle(false);
             setNav1(false);
@@ -196,7 +196,7 @@ function Navigation({ setNavToggle }) {
               </div>
             </div>
           </NavLink>
-        </li>
+        </li> */}
         <li
           onClick={() => {
             setNavToggle(false);

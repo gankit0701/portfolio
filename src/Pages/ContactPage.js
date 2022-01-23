@@ -51,11 +51,10 @@ function ContactPage() {
     setLoad(true);
     emailjs
       .send(
-        
-        "service_slyp0rk",
-        "template_u2fj2ia",
+        "service_xkiwmna",
+        "template_p2fy4dj",
         state,
-        "user_25rG3We9zyWfUWbGjJnsX"
+        "user_eneNmOEWWaA2wrCK3zeK6"
       )
       .then((res) => {
         setLoad(false);
@@ -155,12 +154,12 @@ function ContactPage() {
               <ContactItem
                 title={"Phone"}
                 icon={phone}
-                cont1={"+91-8898620309"}
+                cont1={"+91-8291079071"}
               />
               <ContactItem
                 title={"Email"}
                 icon={email}
-                cont1={"sharoofskhan10@gmail.com"}
+                cont1={"gankit0701@gmail.com"}
               />
               <ContactItem
                 title={"Address"}

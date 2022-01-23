@@ -28,7 +28,7 @@ function HomePage({theme}) {
       backSpeed:  100,
       startDelay: 500,
       backDelay:800,
-      strings: ["A Web Developer", "A Problem Solver"],
+      strings: ["A Mobile App Developer", "A Problem Solver"],
     });
   },[]);
   return (
@@ -43,32 +43,35 @@ function HomePage({theme}) {
           <Particle theme={theme} />
         </div>
         <div className="typography">
-          <h1>
-            Hi, I'm 
+          <h1>Hi, I'm</h1>
+          <h1 style={{ fontSize: 70, color: "var(--primary-color)" }}>
+            Ankit Gupta
           </h1>
-          <h1 style={{fontSize:70,color:"var(--primary-color)"}} >SHAROOF KHAN</h1>
           <span
             ref={info}
             style={{ fontSize: 35, display: "block", minHeight: 50 }}
           ></span>
           <p>
-          It's Nice To Meet You. I Design And Code Beautifully And I Love What I Do.
+            It's Nice To Meet You. I Design And Code Beautifully And I Love What
+            I Do.
           </p>
           <div className="icons">
-            <a href="https://www.linkedin.com/in/sharoof-khan-0703/" className="icon i-linked"
-            target="_blank"
-            rel="noopener noreferrer"
+            <a
+              href="https://www.linkedin.com/in/gankit0701/"
+              className="icon i-linked"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-             <LinkedInIcon/>
+              <LinkedInIcon />
             </a>
-            <a href="https://github.com/sharoof-khan" className="icon i-github"
-            target="_blank"
-            rel="noopener noreferrer"
+            <a
+              href="https://github.com/gankit0701/"
+              className="icon i-github"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <GithubIcon />
             </a>
-           
-            
           </div>
         </div>
       </HomePageStyled>
