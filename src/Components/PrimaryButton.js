@@ -16,6 +16,10 @@ const PrimaryButtonStyled = styled.a`
     padding: .8rem 2.5rem;
     color: white;
     cursor: pointer;
+     margin-top: 2%;
+    width: 66%;
+
+    text-align: center;
     
     display: inline-block;
     font-size: inherit;
