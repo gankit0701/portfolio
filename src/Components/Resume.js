@@ -144,7 +144,7 @@ function Resume() {
             year={"2017 - 2020"}
             title={"Bsc IT"}
             subTitle={"Vidyalankar School Of Information Technology"}
-            text={"Wadala, Mumbai:400031"}
+            text={"Wadala, Mumbai:400037"}
             /* text={
               "Got 75% through out the semester. Always active in project cirriculum."
             } */
