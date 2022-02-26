@@ -5,7 +5,7 @@ import Particle from "../Components/Particle";
 import { motion } from "framer-motion";
 import { init } from "ityped";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { SiLeetcode } from "react-icons/si";
+// import { SiLeetcode } from "react-icons/si";
 const containerVariants = {
   hidden: {
     opacity: 0,
@@ -28,7 +28,7 @@ function HomePage({theme}) {
       backSpeed:  100,
       startDelay: 500,
       backDelay:800,
-      strings: ["A Mobile App Developer", "A Problem Solver"],
+      strings: ["A Flutter App Developer", "A Problem Solver"],
     });
   },[]);
   return (

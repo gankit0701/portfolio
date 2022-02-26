@@ -2,7 +2,7 @@ import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 // import resume from "../img/resume1.png";
-import resume from "../img/dp.jpg";
+// import resume from "../img/dp.jpg";
 // import me from "../img/resume2.png";
 import me from "../img/srk.jpg";
 import PrimaryButton from "./PrimaryButton";
@@ -17,7 +17,7 @@ function ImageSection() {
       startDelay: 500,
       backDelay:800,
       // strings: ["Sharoof Khan","A Web Developer", "A Problem Solver"],
-      strings: ["Ankit Kumar Gupta","A Mobile App Developer", "A Problem Solver"],
+      strings: ["Ankit Kumar Gupta","A Flutter App Developer", "A Problem Solver"],
     });
   },[])
   return (
