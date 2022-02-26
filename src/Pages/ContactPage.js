@@ -164,7 +164,7 @@ function ContactPage() {
               <ContactItem
                 title={"Address"}
                 icon={location}
-                cont1={"Mumbi,Maharastra"}
+                cont1={"Mumbai,Maharastra"}
                 cont2={"India"}
               />
             </div>
