@@ -22,7 +22,27 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
-            year={"March, 2021 - Present"}
+            year={"Nov, 2021 - Present"}
+            title={"Saraswat Infotech Pvt Ltd , Mumbai"}
+            text={`● Presented designs to customers for evaluation, promptly changing client's required improvements,
+                  amendments and requests.
+                  ● Creating banking Application from Scratch in Flutter .
+                  ● Deployed More than 30 application using Flavor.
+                  ● Planned storyboards for clients before creating applications, ensuring designs and ideas stayed to client
+                  requirements and expectations.
+                  ● Worked with outside data sources and APIs
+                   `}
+          />
+        </div>
+        <div className="small-title">
+          <SmallTitle
+            icon={briefcase}
+            title={"Mobile Application Developer"}
+          />
+        </div>
+        <div className="resume-content">
+          <ResumeItem
+            year={"March, 2021 - Oct 2021"}
             title={" Digixy Global Consulting  , Noida"}
             text={`● Presented designs to customers for evaluation, promptly changing client's required improvements,
                   amendments and requests.
@@ -75,7 +95,7 @@ function Resume() {
                     ● Work on bug fixing and improving application performance`}
           />
         </div>
-        <div className="small-title">
+        {/* <div className="small-title">
           <SmallTitle icon={briefcase} title={"Interships, Web Designer"} />
         </div>
         <div className="resume-content">
@@ -92,7 +112,7 @@ function Resume() {
                     ● Created and implemented firewalls, encryption strategies and other critical security measures.
               `}
           />
-        </div>
+        </div> */}
 
         <div className="small-title">
           <SmallTitle icon={briefcase} title={"Interships,Web Developer"} />

@@ -9,7 +9,7 @@ function ServicesSection() {
       <ServicesSectionStyled>
         <Title title={"Services"} span={"services"} />
         <div className="services">
-          <ServiceCard
+          {/* <ServiceCard
             image={
               <svg
                 viewBox="0 0 137.144 137.144"
@@ -26,7 +26,7 @@ function ServicesSection() {
             paragraph={
               "I can Provide a graphic user interface (GUI) design that adjusts smoothly to various screen sizes."
             }
-          />
+          /> */}
           <div className="mid-card">
             <ServiceCard
               image={
@@ -37,9 +37,9 @@ function ServicesSection() {
                   <path d="M38.4,36.08a1.5,1.5,0,0,0-2.12,0l-8.54,8.54a1.5,1.5,0,0,0,0,2.12l8.54,8.54a1.5,1.5,0,0,0,2.12-2.12l-7.48-7.47L38.4,38.2A1.5,1.5,0,0,0,38.4,36.08Z" />
                 </svg>
               }
-              title={"Web Design"}
+              title={"App Design"}
               paragraph={
-                "I can plan, create and code internet sites and web pages from scratch."
+                "I can plan, Create mobile application from scratch."
               }
             />
           </div>

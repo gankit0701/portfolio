@@ -28,7 +28,7 @@ function HomePage({theme}) {
       backSpeed:  100,
       startDelay: 500,
       backDelay:800,
-      strings: ["A Flutter App Developer", "A Problem Solver"],
+      strings: ["A Flutter Developer", "A Problem Solver"],
     });
   },[]);
   return (
